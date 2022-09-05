@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header {
+  color:aqua;
+}
+.card {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: solid 1px;
+  margin-top: 20px;
+}
+.insideTheCard{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.insideTheCard .btn {
+  margin-top: 20px;
+}
+.btn {
+  height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  cursor: pointer;
+}
+.btn:active{
+  background-color: rgb(1, 96, 1);
+}
+.btn:hover{
+  background-color: rgb(122, 138, 2);
+}
+.task{
+  background-color: gainsboro;
+  margin: 5px;
+  padding-bottom: 10px;
+  position: relative;
+  border-radius: 8px;
+
+}
+.task h3{
+  margin: 10px 0px;
+}
+.task p{
+  margin: 0;
+}
+.insideTask{
+  padding: 5px 30px;
+}
+.insideTask i {
+  position: absolute;
+  top: 35%;
+  left: 92%;
+  cursor: pointer;
+  color: crimson;
+}
